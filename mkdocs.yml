@@ -1,0 +1,54 @@
+site_name: Playbook Produit
+site_description: Documentation et insights internes des équipes
+site_author: Équipe Produit / Tech
+
+theme:
+  name: material
+  language: fr
+  palette:
+    # Mode clair
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    # Mode sombre
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+  features:
+    - navigation.instant
+    - navigation.tabs # Crée des onglets en haut pour les grandes sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate # Intègre la table des matières sur le côté gauche
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - "1. Vision, Stratégie et Orga":
+      - Vision et approche "Impact Driven": vision/impact-driven.md
+      - Operating Model: vision/operating-model.md
+  - "2. Découverte Produit":
+      - Exploration continue: discovery/exploration.md
+      - Validation des opportunités: discovery/validation.md
+  - "3. Cadrage":
+      - Entonnoir stratégique et Roadmap: cadrage/entonnoir-roadmap.md
+      - Taxonomie et découpage: cadrage/taxonomie.md
+      - Standardisation (Templates): cadrage/standardisation.md
+  - "4. Développement et Livraison":
+      - Cadences et rituels: delivery/cadences-rituels.md
+      - Exécution et qualité: delivery/execution.md
