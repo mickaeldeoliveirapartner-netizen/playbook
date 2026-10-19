@@ -45,19 +45,20 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - "1. Vision, Stratégie et Orga":
-      - Vision et approche "Impact Driven": vision/impact-driven.md
-      - Operating Model: vision/operating-model.md
-  - "2. Découverte Produit":
-      - Exploration continue: discovery/exploration.md
-      - Validation des opportunités: discovery/validation.md
-  - "3. Cadrage":
-      - Entonnoir stratégique et Roadmap: cadrage/entonnoir-roadmap.md
-      - Taxonomie et découpage: cadrage/taxonomie.md
-      - Standardisation (Templates): cadrage/standardisation.md
-  - "4. Développement et Livraison":
-      - Cadences et rituels: delivery/cadences-rituels.md
-      - Exécution et qualité: delivery/execution.md
+  - "1. Vision & Impact":
+      - Pourquoi ? Pour qui ?: vision/pour-qui-pour-quoi.md
+      - Approche Impact Driven: vision/impact-driven.md
+  - "2. Stratégie & Roadmap":
+      - Entonnoir stratégique: strategie/entonnoir-strategique.md
+      - Construire la Roadmap: strategie/roadmap.md
+  - "3. Operating Model":
+      - Définition du modèle: operating-model/definition.md
+      - Rôles et Organisation: operating-model/organisation-roles.md
+  - "4. Taxonomie & Cadences":
+      - Taxonomie et Découpage: execution/taxonomie-decoupage.md
+      - Rythmes et Boîtes de temps: execution/cadences-boites-de-temps.md
+  - "Boîte à outils":
+      - Templates: templates/index.md
 
 # --- NOUVEAU BLOC À AJOUTER À LA FIN ---
 extra_css:
