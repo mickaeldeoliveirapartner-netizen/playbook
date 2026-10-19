@@ -1,17 +1,29 @@
-# Playbook Produit : Accueil
+# Playbook **Produit**
 
-Bienvenue dans le Playbook Produit ! 🚀
+<div class="grid-cards">
 
-Ce document rassemble nos standards, notre vision et nos méthodes de travail pour aligner l'ensemble des équipes (Produit, Design, Tech).
+  <div class="card">
+    <h3>Vision & Stratégies</h3>
+    <p>Découvrez notre approche Impact Driven et notre modèle opérationnel.</p>
+    <a href="vision/impact-driven/">Ouvrir le module &rarr;</a>
+  </div>
 
-!!! abstract "Pourquoi ce playbook ?"
-    L'objectif n'est pas d'imposer des règles rigides, mais de fournir un **cadre de référence commun** pour fluidifier notre collaboration, éviter les silos et maximiser notre création de valeur.
+  <div class="card">
+    <h3>Découverte Produit</h3>
+    <p>Recherche utilisateur, validation des opportunités et exploration.</p>
+    <a href="discovery/exploration/">Ouvrir le module &rarr;</a>
+  </div>
 
-## Comment naviguer ?
+  <div class="card">
+    <h3>Cadrage</h3>
+    <p>De l'entonnoir stratégique à la déclinaison en initiatives et Epics.</p>
+    <a href="cadrage/taxonomie/">Ouvrir le module &rarr;</a>
+  </div>
 
-Utilisez le menu supérieur pour naviguer à travers les 4 grands piliers de notre modèle :
+  <div class="card">
+    <h3>Développement</h3>
+    <p>Rituels, cadences de livraison et standards de qualité.</p>
+    <a href="delivery/cadences-rituels/">Ouvrir le module &rarr;</a>
+  </div>
 
-1. **Vision, Stratégie et Orga** : Notre raison d'être et la structure de nos équipes.
-2. **Découverte Produit** : Comment nous identifions et validons les bons problèmes à résoudre.
-3. **Cadrage** : Comment nous passons de l'idée à une roadmap structurée.
-4. **Développement et Livraison** : Nos rituels et standards d'exécution.
+</div>
