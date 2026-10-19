@@ -5,29 +5,35 @@ site_author: Équipe Produit / Tech
 theme:
   name: material
   language: fr
+  # Optionnel : ajoute un logo si tu en as un dans docs/assets/
+  # logo: assets/logo.svg 
   palette:
-    # Mode clair
+    # Mode clair (on force l'utilisation de nos couleurs CSS custom)
     - scheme: default
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Passer au mode sombre
     # Mode sombre
     - scheme: slate
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Passer au mode clair
+  font:
+    text: Roboto # Typographie classique
   features:
     - navigation.instant
-    - navigation.tabs # Crée des onglets en haut pour les grandes sections
+    - navigation.tabs 
+    - navigation.tabs.sticky # Fixe la barre d'onglets au scroll
+    - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
-    - toc.integrate # Intègre la table des matières sur le côté gauche
+    - toc.integrate 
 
 markdown_extensions:
   - admonition
@@ -52,3 +58,7 @@ nav:
   - "4. Développement et Livraison":
       - Cadences et rituels: delivery/cadences-rituels.md
       - Exécution et qualité: delivery/execution.md
+
+# --- NOUVEAU BLOC À AJOUTER À LA FIN ---
+extra_css:
+  - stylesheets/extra.css
