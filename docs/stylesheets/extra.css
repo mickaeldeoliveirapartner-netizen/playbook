@@ -1,0 +1,90 @@
+/* Définition des couleurs exactes de la charte */
+:root {
+  /* Le bleu profond Decathlon / PRISM */
+  --md-primary-fg-color:        #3a49a8; 
+  --md-primary-fg-color--light: #5263cf;
+  --md-primary-fg-color--dark:  #29347a;
+  
+  /* Le vert d'eau pour l'accentuation (titres, liens au survol) */
+  --md-accent-fg-color:         #73f0a1;
+  
+  /* Arrière-plan général très légèrement grisé (comme le dashboard) */
+  --md-default-bg-color:        #f8f9fc;
+}
+
+/* --- BANNIÈRE EN EN-TÊTE (HERO) --- */
+/* On cible le titre H1 pour le transformer en grande bannière bleue */
+.md-typeset h1 {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* Optionnel : un léger dégradé pour la profondeur */
+  background-image: linear-gradient(135deg, #3a49a8 0%, #5263cf 100%);
+}
+
+/* Les mots en gras dans le H1 prendront la couleur vert d'eau */
+.md-typeset h1 strong {
+  color: var(--md-accent-fg-color);
+  font-weight: 800;
+}
+
+/* --- STYLE DES CARTES (DASHBOARD) --- */
+/* On détourne les listes classiques pour en faire une grille de cartes */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.grid-cards .card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0,0,0,0.02);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.grid-cards .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.grid-cards .card h3 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color--dark);
+  font-size: 1.2rem;
+}
+
+.grid-cards .card p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid-cards .card a {
+  color: var(--md-primary-fg-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.grid-cards .card a:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* --- BARRE LATÉRALE --- */
+/* Arrondir la sélection active dans le menu de gauche */
+.md-nav__link--active {
+  background-color: #e8ebf7;
+  border-radius: 8px;
+  color: var(--md-primary-fg-color) !important;
+  font-weight: 600;
+}
