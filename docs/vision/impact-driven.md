@@ -1,19 +1,39 @@
 # Vision et approche "Impact Driven"
 
-## Pourquoi ? Pour qui ?
+Cette page pose les fondations de notre modèle de travail. Avant même de parler d'outils, d'agilité ou de livraison, il est essentiel de partager un référentiel commun sur la raison d'être de nos pratiques.
 
-Toute initiative au sein de l'équipe doit démarrer par une compréhension claire du contexte. Avant de penser "Solution", nous devons répondre à deux questions fondamentales :
+---
 
-- **Pourquoi faisons-nous cela ?** Quel est le problème douloureux ou l'opportunité business que nous tentons d'adresser ?
-- **Pour qui le faisons-nous ?** Qui est l'utilisateur final ? Quels sont ses besoins réels sur le terrain ?
+## Pourquoi cette approche ?
 
-## C'est quoi l'approche "Impact Driven" ?
+La mise en place de ce playbook ne vise pas à complexifier nos processus, mais répond à trois enjeux fondamentaux pour nos équipes :
 
-Être *Impact Driven*, c'est opérer un changement de mentalité majeur : **passer d'une logique de livraison (Output) à une logique de création de valeur (Outcome).**
+1. **Créer un référentiel commun** : Harmoniser nos méthodes pour faciliter la collaboration.
+2. **Redonner du sens sur les pratiques** : Comprendre *pourquoi* nous faisons les choses avant de savoir *comment* les faire.
+3. **Remettre l'impact au centre** : Sortir d'une logique de simple exécution ("Feature factory") pour se concentrer sur la valeur réelle apportée.
+4. **S'organiser et travailler ensemble** : Casser les silos et fluidifier la communication inter-équipes.
 
-!!! success "Outcome vs Output : La différence"
-    * 🔴 **Output (Ce que l'on produit)** : "Nous avons livré la nouvelle barre de recherche avancée."
-    * 🟢 **Outcome (L'impact généré)** : "Grâce à la nouvelle barre de recherche, le temps moyen pour trouver un produit a diminué de 20% et le taux d'ajout au panier a augmenté de 5%."
+---
 
-!!! tip "En pratique"
-    Ne tombez pas amoureux de votre solution, tombez amoureux du problème de votre utilisateur. Si une fonctionnalité est livrée mais ne change pas les métriques d'usage, l'objectif n'est pas atteint.
+## Pour qui et pour quoi faire ?
+
+Notre modèle s'adresse à différents acteurs, avec des attentes spécifiques pour chacun :
+
+| Public cible | Notre promesse (Pour quoi faire ?) |
+|--------------|-------------------------------------|
+| **Les Product Teams** | Apprendre à être contributeur et créateur de valeur, plutôt que simple exécutant d'une roadmap imposée. |
+| **Les Managers** | Devenir les garants de la mise en place et de l'animation de ce modèle au quotidien. |
+| **Business / Program Managers** | Comprendre comment co-construire les solutions avec les équipes produit. |
+| **Nous (L'équipe centrale)** | Fournir des *Guidelines* claires et un cadre de référence évolutif. |
+
+---
+
+## Qu'est-ce que c'est concrètement ?
+
+L'approche "Impact Driven", documentée dans ce playbook, se définit par ce qu'elle est et ce qu'elle n'est pas.
+
+!!! success "Un contrat d'engagement"
+    Ce modèle est un **contrat d'engagement** mutuel. Il définit nos standards de qualité, nos rituels et notre vocabulaire commun pour assurer l'excellence de nos produits.
+
+!!! warning "Non imposé, mais fortement recommandé"
+    L'idée n'est **pas d'imposer**
