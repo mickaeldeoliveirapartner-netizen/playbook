@@ -4,7 +4,7 @@ Cette page pose les fondations de notre modèle de travail. Avant même de parle
 
 ---
 
-## Pourquoi cette approche ?
+## Pourquoi cette approche ???????
 
 La mise en place de ce playbook ne vise pas à complexifier nos processus, mais répond à trois enjeux fondamentaux pour nos équipes :
 
